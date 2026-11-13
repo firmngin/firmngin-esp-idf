@@ -1,0 +1,19 @@
+.pio
+.vscode/
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.*
+!sdkconfig.defaults
+*.orig
+*.bak*
+managed_components/
+dependencies.lock
+compile_commands.json
+.cache/
+.DS_Store
+
+# App-local credentials: never commit a real keys.h
+**/keys.h
+!examples/keys.h.template
+!examples/basic/main/keys.h
