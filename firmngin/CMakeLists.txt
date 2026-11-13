@@ -20,6 +20,7 @@ idf_component_register(
         "${FNG_SRC_DIR}/audio_stream_protocol.cpp"
         "${FNG_SRC_DIR}/crypto.cpp"
         "${FNG_SRC_DIR}/firmngin.cpp"
+        "${FNG_SRC_DIR}/firmngin_cloudlog.cpp"
         "${FNG_SRC_DIR}/firmngin_gateway.cpp"
         "${FNG_SRC_DIR}/firmngin_i2s.cpp"
         "${FNG_SRC_DIR}/firmngin_identity.cpp"
