@@ -3,6 +3,7 @@
 
 #include "fng_compat.h"
 #include <stdarg.h>
+#include <stdint.h>
 #include <stdio.h>
 
 // CloudLog: `Serial.println` yang sekaligus terkirim ke cloud.

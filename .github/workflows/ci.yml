@@ -61,8 +61,8 @@ jobs:
           target: esp32
           path: examples/basic
           command: >-
-            python -m pip install 'idf-component-manager>=1.5.2,<2' &&
+            python -m pip install "idf-component-manager>=1.5.2,<2" &&
             idf.py build &&
             cp ../../examples/keys.h.template main/keys.h &&
-            printf '\n#define USE_CA_CERT\n' >> main/keys.h &&
+            printf "\n#define USE_CA_CERT\n" >> main/keys.h &&
             idf.py build
